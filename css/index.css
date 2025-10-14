@@ -1,0 +1,93 @@
+html::selection{
+    background:#FEC260;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color: #F7ECDE;
+    font-family: "PT Sans Caption", sans-serif;;
+}
+#siteName , #siteUrl{
+    border: 0.5px #CED4DA solid;
+}
+hr{
+    border-top: 3px black dotted;
+}
+.firstHeader{
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+    position: relative;
+}
+.firstHeader::after{
+    content: '';
+    height: 20px;
+    width: 20.5%;
+    background: #FEC260;
+    position: absolute;
+    bottom: 27%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50% , -27%);
+    transition: all 0.5s;
+}
+.firstHeader:hover::after {
+    height: 30px;
+ }
+  
+.subHeader h1{
+    font-family: "Righteous", sans-serif;;
+    background: linear-gradient(to right, #3FA55B, #B2AB49);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.subHeader h1::selection{
+    background-color: #FEC260;
+    color: black;
+}
+.subHeader .icon1 {
+    font-size: 25px;
+    color: #3FA55B;
+}
+.subHeader .icon2 {
+    font-size: 25px;
+    color:#B2AB49;
+}
+.submit-btn{
+    width: 12%;
+}
+.overlay{
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0,0, 0, 0.6);
+}
+.alert{
+    width:35% ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.firstCircle{
+    height: 20px;
+    width: 20px;
+}
+.closeicon{
+    border: 0 transparent solid;
+}
+pre{
+    font-size: 18px;
+}
+.listicon{
+    color: #BB4120;
+}
+li{
+    font-size: 16px;
+}
