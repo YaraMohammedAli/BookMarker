@@ -1,0 +1,32 @@
+@media all and (width < 640px) {
+    .submit-btn{
+        width: 30%;
+    }
+
+
+}
+@media all and (640px <=width < 768px) {
+    .submit-btn{
+        width: 25%;
+    }
+
+}
+@media all and (768px <=width < 1024px) {
+
+
+
+}
+@media all and (1024px <=width < 1280px) {
+
+
+
+}
+@media all and (1280px <=width < 1536px) {
+
+
+}
+@media all and (1536px <=width) {
+
+    
+
+}
